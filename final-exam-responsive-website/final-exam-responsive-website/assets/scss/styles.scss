@@ -489,6 +489,7 @@ input{
     }
     &__description{
         font-size: var(--small-font-size);
+       
     }
     &__img{
         position: relative;
@@ -516,6 +517,10 @@ input{
             top: 2rem;
             right: 0;
         }
+    }
+    .service__description {
+        text-align: center;
+        padding-bottom: 1.5rem;
     }
 }
 
